@@ -4,7 +4,7 @@
 
 ## REST API
 
-- User auth system
+- User auth system (in progress)
   - users table should store user id, username, password, disabled flag, archived flag
 - Implement file logger. 
 - Create role system
