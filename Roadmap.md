@@ -2,14 +2,14 @@
 
 [Back to README](README.md)
 
-## REST API
+## <a id="rest-api">REST API</a>
 
-- User auth system (in progress)
+- <a id="user-auth">User auth system</a> (in progress)
   - users table should store user id, username, password, disabled flag, archived flag
 - Implement file logger. 
-- Create role system
+- <a id="user-roles">Create role system</a>
   - Roles: superuser, owner, author, editor, contributor, proofreader, reader
-- Create forking system 
+- <a id="forking">Create forking system</a>
   - A fork should store parent fork, creator id, title, description, story text, published flag, created at
   - A story is a root fork. (parent fork is null)
   - Each fork of a fork is a path the reader can take in the story. 
@@ -22,7 +22,7 @@
     - **contributor**: can create branches. 
     - **proofreader**: can read published and unpublished stories. 
     - **reader**: can read published stories. 
-- Implement activity logger. 
+- <a id="activity-logger">Implement activity logger</a>
   - log user activity to a coded database table. 
   - log table will store log code, user id, target id timestamp, log notes. 
   - Log ID labels:
@@ -42,22 +42,22 @@
     - fork unpublished
     - fork deleted
 
-## User Interface
+## <a id="user-interface">User Interface</a>
 
 The UI will be a multi-application Angular app. 
 
-**Order of development:**
+<a id="ui-ood">**Order of development:**</a>
 
-- Web UI
+- <a id="ui-ood-web">Web UI</a>
   - Reader
   - Author
   - Admin
-- Mobile UI
+- <a id="ui-ood-mobile">Mobile UI</a>
   - Reader
   - Author
   - Admin
 
-**UI apps / libraries:**
+<a id="ui-apps">**UI apps / libraries:**</a>
 
 - Common library
 - Web UI
@@ -69,7 +69,7 @@ The UI will be a multi-application Angular app.
   - Author
   - Reader
 
-### Offline / collaborative editing
+### <a id="ui-offline">Offline / collaborative editing</a>
 
 - Users should be notified when their device is offline. (via a permenantly visible notification bar)
 - Users should be notified when other users are editing same fork. 
