@@ -1,0 +1,6 @@
+[submodule "story-book-api-wiki"]
+	path = story-book-api-wiki
+	url = https://github.com/wesdean/story-book-api.wiki.git
+[submodule "story-book-docs-wiki"]
+	path = story-book-docs-wiki
+	url = https://github.com/wesdean/storybook-docs.wiki.git
