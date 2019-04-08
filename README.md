@@ -4,7 +4,7 @@
 
 * <a href="#repositories">Repositories</a>
 * <a href="#wikis">Wikis</a>
-* [Roadmap](<https://github.com/wesdean/storybook-docs/wiki/Roadmap.md>)
+* [Roadmap](<https://github.com/wesdean/storybook-docs/wiki/Roadmap>)
 
 ## <a id="repositories">Repositories</a>
 
